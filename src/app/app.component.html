@@ -1,0 +1,25 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Logo</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a routerLink="home" routerLinkActivate="activate">Home</a></li>
+      <li><a routerLink="about" routerLinkActivate="activate">About</a></li>
+        <li><a routerLink="demo" routerLinkActivate="activate">Demo</a></li>
+    </ul>
+  </div>
+</nav>
+
+<md-toolbar color="primary">
+  <span>Application Title</span>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space"></span>
+  <span>Right Aligned Text</span>
+</md-toolbar>
+
+
+<h1>
+  {{title}}
+</h1>
+
+<router-outlet></router-outlet>
